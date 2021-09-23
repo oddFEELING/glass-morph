@@ -11,7 +11,7 @@ function App() {
             <h1>{data.key}</h1>
             <h3>{data.title}</h3>
             <p>{data.body}</p>
-            <a>{data.link}</a>
+            <a href={data.link}>{data.link}</a>
           </S.Card>
         );
       })}
